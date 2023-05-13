@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#ED474A, #0353A4, #2D898B);
+    height: 100vh;
+    padding: 5vh 29%;
+}
+
+.maincontainer{
+    border: solid 1px red;
+    border-radius: 7px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+
+}
+
+.headercontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.headercontainer h1{
+    font-family: 'Alfa Slab One';
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.headercontainer h2{
+    font-family: 'Anton', sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    color: #BAB51E;
+}
+.headercontainer span{
+    color: #85bb65;
+}
+
+.loginfo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.loginfo-container-div{
+    border-bottom: solid 1px black;
+    margin: 15px 0px;
+}
+
+.loginfo-container-checkmark{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+    font-size: larger;
+}
+
+.loginfo-container-checkmark input{
+    margin: 0px 10px 0px 0px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.loginfo-container-div input{
+    margin-left: 7px;
+    font-size: large;
+    height: 27px;
+    width: 217px;
+    border: none;
+}
+
+.loginfo-container img{
+    width: 25px;
+ }
+
+.maincontainer > button{
+    background-color: #55917F;
+    border-radius: 5px;
+    height: 50px;
+    width: 227px;
+    margin: 15px 0;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.recovery-login-info{
+    margin: 13px 0px;
+    font-size: large;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 50px;
+    color: white;
+    padding: 0 0%;
+    font-size: x-large;
+}

@@ -17,18 +17,21 @@
             <h2>= Buck<span>$</span> =</h2>
         </div>
         <div class="loginfo-container">
-            <div class="loginfo-container-div">
-                <img src="./assets/user-svgrepo-com.svg" alt="">
-                <input type="text" placeholder="Username">
-            </div>
-            <div class="loginfo-container-div">
-                <img src="./assets/lock-svgrepo-com.svg" alt="">
-                <input type="password" placeholder="Password">
-            </div>
-            <div class="loginfo-container-checkmark">
-                <input type="checkbox">
-                <p>Recordar mi usario</p>
-            </div>
+            <form id="loginForm">
+                <div class="loginfo-container-div">
+                    <img src="./assets/user-svgrepo-com.svg" alt="">
+                    <input id="username" type="text" placeholder="Usuario">
+                </div>
+                <div class="loginfo-container-div">
+                    <img src="./assets/lock-svgrepo-com.svg" alt="">
+                    <input id="password" type="password" placeholder="Contraseña">
+                </div>
+                <div class="loginfo-container-checkmark">
+                    <input type="checkbox">
+                    <p>Recordar mi usario</p>
+                </div>
+                <input type="submit" value="Ingresar">
+            </form>
         </div>
         <button>Iniciar sesion</button>
         <div class="recovery-login-info">
@@ -36,7 +39,8 @@
         </div>
     </div>
     <footer>
-        <p>¿No tiene un nombre de usuario y contraseña? <a href="#">Configúrelos ahora.</a></p>
-    </footer>    
+        <p>¿No tiene un nombre de usuario y contraseña? <a href="create-account-page.html">Configúrelos ahora.</a></p>
+    </footer>
+    <script src="./js/login.js"></script>    
 </body>
 </html>
